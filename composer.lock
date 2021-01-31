@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d8c4d6bd497b026c0120fff45acd85b",
+    "content-hash": "56df5976eec1494a3757e5ac6af3ecc5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2535,12 +2535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "3170d8ae661189730ebfd08187eadc6f337edee8"
+                "reference": "5c8e425b2d5ba15073a5db56b4deed10a0fff2e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/3170d8ae661189730ebfd08187eadc6f337edee8",
-                "reference": "3170d8ae661189730ebfd08187eadc6f337edee8",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/5c8e425b2d5ba15073a5db56b4deed10a0fff2e6",
+                "reference": "5c8e425b2d5ba15073a5db56b4deed10a0fff2e6",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2587,7 @@
                 "issues": "https://github.com/kawax/self-ordering/issues",
                 "source": "https://github.com/kawax/self-ordering/tree/develop"
             },
-            "time": "2021-01-31T08:08:16+00:00"
+            "time": "2021-01-31T12:44:47+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7592,7 +7592,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0"
+        "php": "^7.4|^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
