@@ -2535,12 +2535,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "5c8e425b2d5ba15073a5db56b4deed10a0fff2e6"
+                "reference": "07477e42afa70a6a4178eb24bb44e10f65c0844f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/5c8e425b2d5ba15073a5db56b4deed10a0fff2e6",
-                "reference": "5c8e425b2d5ba15073a5db56b4deed10a0fff2e6",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/07477e42afa70a6a4178eb24bb44e10f65c0844f",
+                "reference": "07477e42afa70a6a4178eb24bb44e10f65c0844f",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2587,7 @@
                 "issues": "https://github.com/kawax/self-ordering/issues",
                 "source": "https://github.com/kawax/self-ordering/tree/develop"
             },
-            "time": "2021-01-31T12:44:47+00:00"
+            "time": "2021-01-31T14:16:04+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
