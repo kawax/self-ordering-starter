@@ -79,7 +79,7 @@ class OrderEntryNotification extends Notification
             '◆メモ：'.$this->memo,
             '◆合計：'.collect($this->items)->sum('price').'円',
             '◆注文◆'.PHP_EOL.collect($this->items)
-                ->map(fn($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
+                ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
                 ->implode(PHP_EOL),
         ])->implode(PHP_EOL.PHP_EOL);
 
