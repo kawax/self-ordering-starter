@@ -3,6 +3,11 @@
 オープンソースのセルフオーダーシステムのテンプレート。  
 https://github.com/kawax/self-ordering
 
+## URL
+- QRコード表示 https://self-ordering-starter.vercel.app/
+- メニュー選択 https://self-ordering-starter.vercel.app/order
+- 管理画面(パスワードは`secret`) https://self-ordering-starter.vercel.app/login
+
 ## Vercelですぐに動かす
 事前にGitHubとVercelのアカウントを準備。  
 https://vercel.com/
