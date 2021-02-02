@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08281497b8c72cb883642c13db84c34b",
+    "content-hash": "00983c7c57e31bed3a592b0ad27627c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2824,16 +2824,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "dev-develop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "795c555de27626f424ba47247780f6181397c82c"
+                "reference": "c72ae61b7cceb876955b499403f616b1728f284b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/795c555de27626f424ba47247780f6181397c82c",
-                "reference": "795c555de27626f424ba47247780f6181397c82c",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/c72ae61b7cceb876955b499403f616b1728f284b",
+                "reference": "c72ae61b7cceb876955b499403f616b1728f284b",
                 "shasum": ""
             },
             "require": {
@@ -2846,7 +2846,6 @@
             "require-dev": {
                 "orchestra/testbench": "^6.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2878,9 +2877,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/develop"
+                "source": "https://github.com/kawax/self-ordering/tree/1.0.0"
             },
-            "time": "2021-02-01T14:11:21+00:00"
+            "time": "2021-02-02T01:37:17+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7879,9 +7878,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "revolution/self-ordering": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
