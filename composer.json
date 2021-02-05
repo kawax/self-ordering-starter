@@ -33,7 +33,10 @@
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+        "google/apiclient-services": [
+            "Sheets"
+        ]
     },
     "autoload": {
         "psr-4": {
@@ -60,6 +63,7 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
+        "post-update-cmd": "Google\\Task\\Composer::cleanup",
         "vercel": [
             "@php artisan config:cache",
             "@php artisan route:cache",
