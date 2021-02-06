@@ -8,6 +8,7 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Support\Arr;
 use Revolution\Line\Notifications\LineNotifyChannel;
 use Revolution\Line\Notifications\LineNotifyMessage;
+use Revolution\Ordering\Payment\PaymentMethod;
 
 class OrderEntryNotification extends Notification
 {
@@ -18,9 +19,20 @@ class OrderEntryNotification extends Notification
      */
     public $items;
 
+    /**
+     * @var string
+     */
     public $table;
 
+    /**
+     * @var string
+     */
     public $memo;
+
+    /**
+     * @var array
+     */
+    public $options;
 
     /**
      * Create a new notification instance.
@@ -28,12 +40,14 @@ class OrderEntryNotification extends Notification
      * @param $items
      * @param $table
      * @param $memo
+     * @param $options
      */
-    public function __construct($items, $table, $memo)
+    public function __construct($items, $table, $memo, $options)
     {
         $this->items = $items;
         $this->table = $table;
         $this->memo = $memo;
+        $this->options = $options;
     }
 
     /**
@@ -73,14 +87,21 @@ class OrderEntryNotification extends Notification
      */
     public function toLineNotify($notifiable)
     {
+        $payment = app(PaymentMethod::class)
+            ->methods()
+            ->get(Arr::get($this->options, 'payment', 'cash'));
+
+        $items = collect($this->items)
+            ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
+            ->implode(PHP_EOL);
+
         $message = collect([
             '',
             '◆テーブル：'.$this->table,
             '◆メモ：'.$this->memo,
             '◆合計：'.collect($this->items)->sum('price').'円',
-            '◆注文◆'.PHP_EOL.collect($this->items)
-                ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
-                ->implode(PHP_EOL),
+            '◆注文方法：'.$payment,
+            '◆注文◆'.PHP_EOL.$items,
         ])->implode(PHP_EOL.PHP_EOL);
 
         return LineNotifyMessage::create($message);
