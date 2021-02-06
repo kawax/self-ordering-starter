@@ -8,7 +8,7 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Support\Arr;
 use Revolution\Line\Notifications\LineNotifyChannel;
 use Revolution\Line\Notifications\LineNotifyMessage;
-use Revolution\Ordering\Payment\PaymentMethod;
+use Revolution\Ordering\Contracts\Payment\PaymentMethodFactory;
 
 class OrderEntryNotification extends Notification
 {
@@ -87,7 +87,7 @@ class OrderEntryNotification extends Notification
      */
     public function toLineNotify($notifiable)
     {
-        $payment = app(PaymentMethod::class)
+        $payment = app(PaymentMethodFactory::class)
             ->methods()
             ->get(Arr::get($this->options, 'payment', 'cash'));
 
@@ -100,7 +100,7 @@ class OrderEntryNotification extends Notification
             '◆テーブル：'.$this->table,
             '◆メモ：'.$this->memo,
             '◆合計：'.collect($this->items)->sum('price').'円',
-            '◆注文方法：'.$payment,
+            '◆支払い方法：'.$payment,
             '◆注文◆'.PHP_EOL.$items,
         ])->implode(PHP_EOL.PHP_EOL);
 
