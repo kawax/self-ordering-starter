@@ -3386,16 +3386,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "1.2.3",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "b78ac02071f9aaa696c0e8b583741f2a7eba32a8"
+                "reference": "d82b00190ccf0797d18b4ac79cd3174d9b22a061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/b78ac02071f9aaa696c0e8b583741f2a7eba32a8",
-                "reference": "b78ac02071f9aaa696c0e8b583741f2a7eba32a8",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/d82b00190ccf0797d18b4ac79cd3174d9b22a061",
+                "reference": "d82b00190ccf0797d18b4ac79cd3174d9b22a061",
                 "shasum": ""
             },
             "require": {
@@ -3441,9 +3441,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.2.3"
+                "source": "https://github.com/kawax/self-ordering/tree/1.2.5"
             },
-            "time": "2021-02-05T12:01:12+00:00"
+            "time": "2021-02-06T02:19:09+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
