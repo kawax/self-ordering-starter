@@ -3386,16 +3386,16 @@
         },
         {
             "name": "revolution/laravel-paypay",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-paypay.git",
-                "reference": "2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81"
+                "reference": "ee849bf074a3f071ea15804a1372691b65bcd829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81",
-                "reference": "2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81",
+                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/ee849bf074a3f071ea15804a1372691b65bcd829",
+                "reference": "ee849bf074a3f071ea15804a1372691b65bcd829",
                 "shasum": ""
             },
             "require": {
@@ -3436,22 +3436,22 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-paypay/issues",
-                "source": "https://github.com/kawax/laravel-paypay/tree/1.0.1"
+                "source": "https://github.com/kawax/laravel-paypay/tree/1.0.2"
             },
-            "time": "2021-02-07T05:31:24+00:00"
+            "time": "2021-02-07T07:25:48+00:00"
         },
         {
             "name": "revolution/self-ordering",
-            "version": "1.2.8",
+            "version": "1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "7fb3168e851708399572218fd706488b9e1b663a"
+                "reference": "b51c629e839c576b656f5210144fc9409ca5d02c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/7fb3168e851708399572218fd706488b9e1b663a",
-                "reference": "7fb3168e851708399572218fd706488b9e1b663a",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/b51c629e839c576b656f5210144fc9409ca5d02c",
+                "reference": "b51c629e839c576b656f5210144fc9409ca5d02c",
                 "shasum": ""
             },
             "require": {
@@ -3497,9 +3497,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.2.8"
+                "source": "https://github.com/kawax/self-ordering/tree/1.2.10"
             },
-            "time": "2021-02-07T05:19:14+00:00"
+            "time": "2021-02-07T10:55:30+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
