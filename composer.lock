@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd998f5fb4d2a4421827fabf354b5c07",
+    "content-hash": "6f519be2bc54f827a33ca1c4b34ccea5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3385,30 +3385,86 @@
             "time": "2021-01-01T08:47:06+00:00"
         },
         {
-            "name": "revolution/self-ordering",
-            "version": "1.2.6",
+            "name": "revolution/laravel-paypay",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "59e3cfa787961e9dad6a7cc9b6ac488fc577beb8"
+                "url": "https://github.com/kawax/laravel-paypay.git",
+                "reference": "2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/59e3cfa787961e9dad6a7cc9b6ac488fc577beb8",
-                "reference": "59e3cfa787961e9dad6a7cc9b6ac488fc577beb8",
+                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81",
+                "reference": "2c09875acf8b1ebbd08b4b11f1f8c4d2540fec81",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "paypayopa/php-sdk": "^1.0",
+                "php": "^7.3||^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Revolution\\PayPay\\PayPayServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolution\\PayPay\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Simple integration Laravel and PayPay API",
+            "keywords": [
+                "laravel",
+                "paypay"
+            ],
+            "support": {
+                "issues": "https://github.com/kawax/laravel-paypay/issues",
+                "source": "https://github.com/kawax/laravel-paypay/tree/1.0.1"
+            },
+            "time": "2021-02-07T05:31:24+00:00"
+        },
+        {
+            "name": "revolution/self-ordering",
+            "version": "1.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/self-ordering.git",
+                "reference": "7fb3168e851708399572218fd706488b9e1b663a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/7fb3168e851708399572218fd706488b9e1b663a",
+                "reference": "7fb3168e851708399572218fd706488b9e1b663a",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
                 "illuminate/support": "^8.0",
                 "livewire/livewire": "^2.0",
-                "php": "^7.4||^8.0"
+                "php": "^7.4||^8.0",
+                "revolution/laravel-paypay": "^1.0"
             },
             "require-dev": {
                 "google/apiclient": "^2.9",
                 "guzzlehttp/guzzle": "^7.2",
-                "orchestra/testbench": "^6.0",
-                "paypayopa/php-sdk": "^1.0"
+                "orchestra/testbench": "^6.0"
             },
             "type": "library",
             "extra": {
@@ -3441,9 +3497,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.2.6"
+                "source": "https://github.com/kawax/self-ordering/tree/1.2.8"
             },
-            "time": "2021-02-06T11:55:04+00:00"
+            "time": "2021-02-07T05:19:14+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
