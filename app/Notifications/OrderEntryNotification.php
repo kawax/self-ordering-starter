@@ -88,8 +88,7 @@ class OrderEntryNotification extends Notification
     public function toLineNotify($notifiable)
     {
         $payment = app(PaymentMethodFactory::class)
-            ->methods()
-            ->get(Arr::get($this->options, 'payment', 'cash'));
+            ->name(Arr::get($this->options, 'payment', 'cash'));
 
         $items = collect($this->items)
             ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
