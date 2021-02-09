@@ -15,34 +15,42 @@ class OrderEntryNotification extends Notification
     use Queueable;
 
     /**
-     * @var array
+     * 詳細を含む商品データ.
+     *
+     * @var array|null
      */
-    public $items;
+    public ?array $items;
 
     /**
-     * @var string
+     * テーブル番号.
+     *
+     * @var string|null
      */
-    public $table;
+    public ?string $table;
 
     /**
-     * @var string
+     * 追加メモ.
+     *
+     * @var string|null
      */
-    public $memo;
+    public ?string $memo;
 
     /**
-     * @var array
+     * オプションデータ.
+     *
+     * @var array|null
      */
-    public $options;
+    public ?array $options;
 
     /**
      * Create a new notification instance.
      *
-     * @param $items
-     * @param $table
-     * @param $memo
-     * @param $options
+     * @param  array|null  $items
+     * @param  string|null  $table
+     * @param  string|null  $memo
+     * @param  array|null  $options
      */
-    public function __construct($items, $table, $memo, $options)
+    public function __construct(?array $items, ?string $table, ?string $memo, ?array $options)
     {
         $this->items = $items;
         $this->table = $table;
