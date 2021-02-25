@@ -53,5 +53,8 @@ cp .env.example .env
 ```
 http://localhost/order で表示。
 
+## 開発作業
+- 注文を受けると`App\Listeners\OrderEntryListener`が呼び出されるので「注文情報をどこかに送信する」はここで処理。
+
 ## LICENCE
 MIT
