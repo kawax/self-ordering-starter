@@ -43,6 +43,16 @@ class OrderEntryNotification extends Notification
     public ?array $options;
 
     /**
+     * @var string|null
+     */
+    private ?string $payment;
+
+    /**
+     * @var string|null
+     */
+    private ?string $order_items;
+
+    /**
      * Create a new notification instance.
      *
      * @param  array|null  $items
@@ -56,6 +66,13 @@ class OrderEntryNotification extends Notification
         $this->table = $table;
         $this->memo = $memo;
         $this->options = $options;
+
+        $this->payment = app(PaymentMethodFactory::class)
+            ->name(Arr::get($this->options, 'payment', 'cash'));
+
+        $this->order_items = collect($this->items)
+            ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
+            ->implode(PHP_EOL);
     }
 
     /**
@@ -83,9 +100,14 @@ class OrderEntryNotification extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->line('The introduction to the notification.')
-            ->action('Notification Action', url('/'))
-            ->line('Thank you for using our application!');
+            ->greeting(__('注文が送信されました'))
+            ->subject(__('【注文】テーブル：').$this->table)
+            ->line('◆テーブル：'.$this->table)
+            ->line('◆メモ：'.$this->memo)
+            ->line('◆合計：'.collect($this->items)->sum('price').'円')
+            ->line('◆支払い方法：'.$this->payment)
+            ->line('◆注文◆')
+            ->line($this->order_items);
     }
 
     /**
@@ -95,20 +117,13 @@ class OrderEntryNotification extends Notification
      */
     public function toLineNotify($notifiable)
     {
-        $payment = app(PaymentMethodFactory::class)
-            ->name(Arr::get($this->options, 'payment', 'cash'));
-
-        $items = collect($this->items)
-            ->map(fn ($item) => '【'.Arr::get($item, 'name').'】('.Arr::get($item, 'price').'円)')
-            ->implode(PHP_EOL);
-
         $message = collect([
             '',
             '◆テーブル：'.$this->table,
             '◆メモ：'.$this->memo,
             '◆合計：'.collect($this->items)->sum('price').'円',
-            '◆支払い方法：'.$payment,
-            '◆注文◆'.PHP_EOL.$items,
+            '◆支払い方法：'.$this->payment,
+            '◆注文◆'.PHP_EOL.$this->order_items,
         ])->implode(PHP_EOL.PHP_EOL);
 
         return LineNotifyMessage::create($message);
