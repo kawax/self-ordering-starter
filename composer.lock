@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6ea7a571197f775df3d8b1672ee84c7",
+    "content-hash": "e0cf61f056058aa5ca068ee589d4f0ee",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3442,16 +3442,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "1.4.8",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "e9db913955a4910f6cc42af3ae403f8d45b0a55b"
+                "reference": "dee07aa9cdec44c62663be0f2eb9870c43ac6386"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/e9db913955a4910f6cc42af3ae403f8d45b0a55b",
-                "reference": "e9db913955a4910f6cc42af3ae403f8d45b0a55b",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/dee07aa9cdec44c62663be0f2eb9870c43ac6386",
+                "reference": "dee07aa9cdec44c62663be0f2eb9870c43ac6386",
                 "shasum": ""
             },
             "require": {
@@ -3499,9 +3499,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.4.8"
+                "source": "https://github.com/kawax/self-ordering/tree/1.5.0"
             },
-            "time": "2021-03-02T08:22:22+00:00"
+            "time": "2021-03-04T10:40:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6147,16 +6147,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.5.13",
+            "version": "2.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "5e9ef386aaad9985cee2ac23281a27568d083b7e"
+                "reference": "17097f7a83e200d90d1cf9f4d1b35c1001513a47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/5e9ef386aaad9985cee2ac23281a27568d083b7e",
-                "reference": "5e9ef386aaad9985cee2ac23281a27568d083b7e",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/17097f7a83e200d90d1cf9f4d1b35c1001513a47",
+                "reference": "17097f7a83e200d90d1cf9f4d1b35c1001513a47",
                 "shasum": ""
             },
             "require": {
@@ -6220,7 +6220,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-02-16T12:46:19+00:00"
+            "time": "2021-03-04T08:48:01+00:00"
         },
         {
             "name": "facade/ignition-contracts",

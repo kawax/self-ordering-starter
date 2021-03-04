@@ -15,6 +15,13 @@ class OrderEntryNotification extends Notification
     use Queueable;
 
     /**
+     * 注文ID.
+     *
+     * @var string
+     */
+    public string $order_id;
+
+    /**
      * 詳細を含む商品データ.
      *
      * @var array|null
@@ -55,13 +62,15 @@ class OrderEntryNotification extends Notification
     /**
      * Create a new notification instance.
      *
+     * @param  string  $order_id
      * @param  array|null  $items
      * @param  string|null  $table
      * @param  string|null  $memo
      * @param  array|null  $options
      */
-    public function __construct(?array $items, ?string $table, ?string $memo, ?array $options)
+    public function __construct(string $order_id, ?array $items, ?string $table, ?string $memo, ?array $options)
     {
+        $this->order_id = $order_id;
         $this->items = $items;
         $this->table = $table;
         $this->memo = $memo;
@@ -101,7 +110,8 @@ class OrderEntryNotification extends Notification
     {
         return (new MailMessage)
             ->greeting(__('注文が送信されました'))
-            ->subject(__('【注文】テーブル：').$this->table)
+            ->subject(__('【注文】テーブル：').$this->table." (ID:{$this->order_id})")
+            ->line('◆注文番号：'.$this->order_id)
             ->line('◆テーブル：'.$this->table)
             ->line('◆メモ：'.$this->memo)
             ->line('◆合計：'.collect($this->items)->sum('price').'円')
@@ -119,6 +129,7 @@ class OrderEntryNotification extends Notification
     {
         $message = collect([
             '',
+            '◆注文番号：'.$this->order_id,
             '◆テーブル：'.$this->table,
             '◆メモ：'.$this->memo,
             '◆合計：'.collect($this->items)->sum('price').'円',
