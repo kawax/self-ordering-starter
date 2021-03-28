@@ -37,9 +37,10 @@ php artisan serve
 http://127.0.0.1:8000/order で表示。
 
 ### Dockerのみインストール済みの場合
+starterプロジェクトで開始する場合はPHP/composerも必要。
 
 ```
-./vendor/bin/sail composer install
+composer install
 
 cp .env.example .env
 
