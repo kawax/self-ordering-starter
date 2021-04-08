@@ -37,10 +37,11 @@ php artisan serve
 http://127.0.0.1:8000/order で表示。
 
 ### Dockerのみインストール済みの場合
-starterプロジェクトで開始する場合はPHP/composerも必要。
-
 ```
-composer install
+docker run --rm --interactive --tty \
+    --volume $PWD:/app  \
+    --volume ${COMPOSER_HOME:-$HOME/.composer}:/tmp \
+    composer install --ignore-platform-reqs
 
 cp .env.example .env
 
