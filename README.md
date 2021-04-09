@@ -38,9 +38,11 @@ http://127.0.0.1:8000/order で表示。
 
 ### Dockerのみインストール済みの場合
 ```
-docker run --rm --interactive --tty \
-    --volume $PWD:/app  \
-    --volume ${COMPOSER_HOME:-$HOME/.composer}:/tmp \
+docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/opt \
+    -w /opt \
+    laravelsail/php80-composer:latest \
     composer install --ignore-platform-reqs
 
 cp .env.example .env
