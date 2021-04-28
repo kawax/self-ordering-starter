@@ -33,7 +33,7 @@ class OrderEntryListener
 
         info('options', $event->options);
 
-        // Notification::route('line-notify', config('line.notify.personal_access_token'))
-        //             ->notify(new OrderEntryNotification($event->items, $event->table, $event->memo, $event->options));
+//        Notification::route('line-notify', config('line.notify.personal_access_token'))
+//                    ->notify(new OrderEntryNotification($event));
     }
 }

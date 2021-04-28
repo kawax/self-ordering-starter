@@ -9,6 +9,7 @@ use Illuminate\Support\Arr;
 use Revolution\Line\Notifications\LineNotifyChannel;
 use Revolution\Line\Notifications\LineNotifyMessage;
 use Revolution\Ordering\Contracts\Payment\PaymentMethodFactory;
+use Revolution\Ordering\Events\OrderEntry;
 
 class OrderEntryNotification extends Notification
 {
@@ -62,19 +63,15 @@ class OrderEntryNotification extends Notification
     /**
      * Create a new notification instance.
      *
-     * @param  string  $order_id
-     * @param  array|null  $items
-     * @param  string|null  $table
-     * @param  string|null  $memo
-     * @param  array|null  $options
+     * @param  OrderEntry  $event
      */
-    public function __construct(string $order_id, ?array $items, ?string $table, ?string $memo, ?array $options)
+    public function __construct(OrderEntry $event)
     {
-        $this->order_id = $order_id;
-        $this->items = $items;
-        $this->table = $table;
-        $this->memo = $memo;
-        $this->options = $options;
+        $this->order_id = $event->order_id;
+        $this->items = $event->items;
+        $this->table = $event->table;
+        $this->memo = $event->memo;
+        $this->options = $event->options;
 
         $this->payment = app(PaymentMethodFactory::class)
             ->name(Arr::get($this->options, 'payment', 'cash'));
