@@ -864,16 +864,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.209.0",
+            "version": "v0.210.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3"
+                "reference": "2be187c5c7c6b6325ddc99015ac6b00ebb8ec764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
-                "reference": "0c463d5f15e91feb8de4ffe199e5010cf3b563d3",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/2be187c5c7c6b6325ddc99015ac6b00ebb8ec764",
+                "reference": "2be187c5c7c6b6325ddc99015ac6b00ebb8ec764",
                 "shasum": ""
             },
             "require": {
@@ -902,9 +902,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.209.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.210.0"
             },
-            "time": "2021-08-22T11:18:24+00:00"
+            "time": "2021-08-29T11:20:24+00:00"
         },
         {
             "name": "google/auth",
@@ -6709,16 +6709,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.0",
+            "version": "2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "fdf92f03e150ed84d5967a833ae93abffac0315b"
+                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/fdf92f03e150ed84d5967a833ae93abffac0315b",
-                "reference": "fdf92f03e150ed84d5967a833ae93abffac0315b",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/15ead64e9828f0fc90932114429c4f7923570cb1",
+                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1",
                 "shasum": ""
             },
             "require": {
@@ -6768,7 +6768,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.0"
+                "source": "https://github.com/filp/whoops/tree/2.14.1"
             },
             "funding": [
                 {
@@ -6776,7 +6776,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-13T12:00:00+00:00"
+            "time": "2021-08-29T12:00:00+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
