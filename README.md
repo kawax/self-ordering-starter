@@ -17,6 +17,9 @@ https://vercel.com/
 - インポート時にはEnvironment Variablesで`APP_KEY`の追加だけ必須。
   - `APP_KEY`はここでランダムに生成されたキーを使う。 https://laravel-app-key.vercel.app/ 
 
+このボタンからでもデプロイ。  
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkawax%2Fself-ordering-starter&env=APP_KEY&envDescription=Laravel%20APP%20Key&envLink=https%3A%2F%2Flaravel-app-key.vercel.app%2F)
+
 ## ローカルで動かす
 
 ↑の新しく作ったプロジェクトを`git clone`後
