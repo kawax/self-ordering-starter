@@ -22,7 +22,6 @@ class OrderEntryListener
      * Handle the event.
      *
      * @param  OrderEntry  $event
-     *
      * @return void
      */
     public function handle(OrderEntry $event)
