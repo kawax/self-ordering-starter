@@ -3725,22 +3725,22 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "4dd89ada542cca68df108f3458d177ffc91a83df"
+                "reference": "75c760607803779d3f5ad015f3acdad6c05cbb15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/4dd89ada542cca68df108f3458d177ffc91a83df",
-                "reference": "4dd89ada542cca68df108f3458d177ffc91a83df",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/75c760607803779d3f5ad015f3acdad6c05cbb15",
+                "reference": "75c760607803779d3f5ad015f3acdad6c05cbb15",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
                 "illuminate/support": "^8.0",
-                "livewire/livewire": "^2.0",
+                "livewire/livewire": "^2.6",
                 "php": "^7.4||^8.0",
                 "revolution/laravel-paypay": "^1.0"
             },
@@ -3782,9 +3782,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.7.1"
+                "source": "https://github.com/kawax/self-ordering/tree/1.7.2"
             },
-            "time": "2021-06-23T04:43:47+00:00"
+            "time": "2021-09-16T05:03:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -8721,7 +8721,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
