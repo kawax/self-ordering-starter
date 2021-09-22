@@ -1990,16 +1990,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "7.1.0",
+            "version": "7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "f81d282ccc5d09c7df8232d5465bb29559976933"
+                "reference": "ff9426df7904cc4e2e09b46189db4a52d8bcb28e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/f81d282ccc5d09c7df8232d5465bb29559976933",
-                "reference": "f81d282ccc5d09c7df8232d5465bb29559976933",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/ff9426df7904cc4e2e09b46189db4a52d8bcb28e",
+                "reference": "ff9426df7904cc4e2e09b46189db4a52d8bcb28e",
                 "shasum": ""
             },
             "require": {
@@ -2065,9 +2065,9 @@
             ],
             "support": {
                 "issues": "https://github.com/line/line-bot-sdk-php/issues",
-                "source": "https://github.com/line/line-bot-sdk-php/tree/7.1.0"
+                "source": "https://github.com/line/line-bot-sdk-php/tree/7.2.0"
             },
-            "time": "2021-07-21T04:55:31+00:00"
+            "time": "2021-09-21T07:44:27+00:00"
         },
         {
             "name": "livewire/livewire",
