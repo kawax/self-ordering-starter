@@ -2863,16 +2863,16 @@
         },
         {
             "name": "paypayopa/php-sdk",
-            "version": "1.0.5",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paypay/paypayopa-sdk-php.git",
-                "reference": "bea1bb11ad7b19d4ca532bce23e437126ddc193d"
+                "reference": "bd16f6e7412bef45a42db44f288c9837ce54d440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/bea1bb11ad7b19d4ca532bce23e437126ddc193d",
-                "reference": "bea1bb11ad7b19d4ca532bce23e437126ddc193d",
+                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/bd16f6e7412bef45a42db44f288c9837ce54d440",
+                "reference": "bd16f6e7412bef45a42db44f288c9837ce54d440",
                 "shasum": ""
             },
             "require": {
@@ -2921,9 +2921,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paypay/paypayopa-sdk-php/issues",
-                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/1.0.5"
+                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/2.0.0"
             },
-            "time": "2021-10-12T09:05:24+00:00"
+            "time": "2021-10-20T01:01:48+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3874,21 +3874,21 @@
         },
         {
             "name": "revolution/laravel-paypay",
-            "version": "1.0.4",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-paypay.git",
-                "reference": "328e22a42044c4abeaad43da2c548e4f8d008a56"
+                "reference": "9a6573450930ad21329ecefba0361b6f82d978c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/328e22a42044c4abeaad43da2c548e4f8d008a56",
-                "reference": "328e22a42044c4abeaad43da2c548e4f8d008a56",
+                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/9a6573450930ad21329ecefba0361b6f82d978c4",
+                "reference": "9a6573450930ad21329ecefba0361b6f82d978c4",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^6.0|^7.0|^8.0",
-                "paypayopa/php-sdk": "^1.0",
+                "paypayopa/php-sdk": "^2.0",
                 "php": "^7.3||^8.0"
             },
             "require-dev": {
@@ -3924,9 +3924,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-paypay/issues",
-                "source": "https://github.com/kawax/laravel-paypay/tree/1.0.4"
+                "source": "https://github.com/kawax/laravel-paypay/tree/1.1.0"
             },
-            "time": "2021-05-09T12:54:59+00:00"
+            "time": "2021-10-23T09:02:59+00:00"
         },
         {
             "name": "revolution/self-ordering",
