@@ -2859,16 +2859,16 @@
         },
         {
             "name": "paypayopa/php-sdk",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paypay/paypayopa-sdk-php.git",
-                "reference": "ccb5db68463ac0aa274df0e60934e75530d98e9b"
+                "reference": "f256e10e1e5561f2bac611356bb123ac7faf3114"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/ccb5db68463ac0aa274df0e60934e75530d98e9b",
-                "reference": "ccb5db68463ac0aa274df0e60934e75530d98e9b",
+                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/f256e10e1e5561f2bac611356bb123ac7faf3114",
+                "reference": "f256e10e1e5561f2bac611356bb123ac7faf3114",
                 "shasum": ""
             },
             "require": {
@@ -2917,9 +2917,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paypay/paypayopa-sdk-php/issues",
-                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/2.0.1"
+                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/2.0.2"
             },
-            "time": "2021-12-08T13:18:05+00:00"
+            "time": "2021-12-17T18:15:57+00:00"
         },
         {
             "name": "phpoption/phpoption",
