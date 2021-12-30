@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.5",
         "google/apiclient": "^2.9",
         "revolution/laravel-line-sdk": "^1.3",
-        "revolution/self-ordering": "^1.7"
+        "revolution/self-ordering": "^1.8"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

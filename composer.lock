@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "115211e86ea603e2ffc822b23abd0692",
+    "content-hash": "39d088855aca5c5967f1262989942433",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3928,16 +3928,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "1.7.2",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "75c760607803779d3f5ad015f3acdad6c05cbb15"
+                "reference": "35c8d1a585d90dcda73127444da9b14ee31180d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/75c760607803779d3f5ad015f3acdad6c05cbb15",
-                "reference": "75c760607803779d3f5ad015f3acdad6c05cbb15",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/35c8d1a585d90dcda73127444da9b14ee31180d7",
+                "reference": "35c8d1a585d90dcda73127444da9b14ee31180d7",
                 "shasum": ""
             },
             "require": {
@@ -3985,9 +3985,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/1.7.2"
+                "source": "https://github.com/kawax/self-ordering/tree/1.8.0"
             },
-            "time": "2021-09-16T05:03:52+00:00"
+            "time": "2021-12-30T05:45:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
