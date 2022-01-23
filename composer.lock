@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "39d088855aca5c5967f1262989942433",
+    "content-hash": "ae6226727325c41f2cfb283714b2a3d0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1716,16 +1716,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "17d2b9cb5161a2ea1a8dd30e6991d668e503fb9d"
+                "reference": "c5aadcc15548629787d02b86a7afef03b46271b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/17d2b9cb5161a2ea1a8dd30e6991d668e503fb9d",
-                "reference": "17d2b9cb5161a2ea1a8dd30e6991d668e503fb9d",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c5aadcc15548629787d02b86a7afef03b46271b5",
+                "reference": "c5aadcc15548629787d02b86a7afef03b46271b5",
                 "shasum": ""
             },
             "require": {
@@ -1733,6 +1733,7 @@
                 "league/config": "^1.1.1",
                 "php": "^7.4 || ^8.0",
                 "psr/event-dispatcher": "^1.0",
+                "symfony/deprecation-contracts": "^v2.1 || ^3.0",
                 "symfony/polyfill-php80": "^1.15"
             },
             "require-dev": {
@@ -1758,7 +1759,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.2-dev"
+                    "dev-main": "2.3-dev"
                 }
             },
             "autoload": {
@@ -1815,7 +1816,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T18:25:06+00:00"
+            "time": "2022-01-22T14:06:22+00:00"
         },
         {
             "name": "league/config",
@@ -2208,16 +2209,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "744a7415d824f7c940b91f3b8873c04872623d06"
+                "reference": "0d417b27791af09c79108eafd1344842f83a26ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/744a7415d824f7c940b91f3b8873c04872623d06",
-                "reference": "744a7415d824f7c940b91f3b8873c04872623d06",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/0d417b27791af09c79108eafd1344842f83a26ee",
+                "reference": "0d417b27791af09c79108eafd1344842f83a26ee",
                 "shasum": ""
             },
             "require": {
@@ -2269,7 +2270,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.10.0"
+                "source": "https://github.com/livewire/livewire/tree/v2.10.1"
             },
             "funding": [
                 {
@@ -2277,7 +2278,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-21T01:29:51+00:00"
+            "time": "2022-01-21T13:39:10+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2861,16 +2862,16 @@
         },
         {
             "name": "paypayopa/php-sdk",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paypay/paypayopa-sdk-php.git",
-                "reference": "f256e10e1e5561f2bac611356bb123ac7faf3114"
+                "reference": "8ad08ead59efbc76296c4999e06672337ed595e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/f256e10e1e5561f2bac611356bb123ac7faf3114",
-                "reference": "f256e10e1e5561f2bac611356bb123ac7faf3114",
+                "url": "https://api.github.com/repos/paypay/paypayopa-sdk-php/zipball/8ad08ead59efbc76296c4999e06672337ed595e2",
+                "reference": "8ad08ead59efbc76296c4999e06672337ed595e2",
                 "shasum": ""
             },
             "require": {
@@ -2919,9 +2920,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paypay/paypayopa-sdk-php/issues",
-                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/2.0.2"
+                "source": "https://github.com/paypay/paypayopa-sdk-php/tree/2.0.3"
             },
-            "time": "2021-12-17T18:15:57+00:00"
+            "time": "2022-01-21T21:12:13+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -7911,16 +7912,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.11",
+            "version": "9.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2406855036db1102126125537adb1406f7242fdd"
+                "reference": "93d4bf4c37aec6384bb9e5d390d9049a463a7256"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2406855036db1102126125537adb1406f7242fdd",
-                "reference": "2406855036db1102126125537adb1406f7242fdd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/93d4bf4c37aec6384bb9e5d390d9049a463a7256",
+                "reference": "93d4bf4c37aec6384bb9e5d390d9049a463a7256",
                 "shasum": ""
             },
             "require": {
@@ -7998,7 +7999,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.11"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.12"
             },
             "funding": [
                 {
@@ -8010,7 +8011,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-25T07:07:57+00:00"
+            "time": "2022-01-21T05:54:47+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -9036,5 +9037,8 @@
         "php": "^7.4|^8.0"
     },
     "platform-dev": [],
+    "platform-overrides": {
+        "ext-sockets": "1.0.0"
+    },
     "plugin-api-version": "2.2.0"
 }
