@@ -10,10 +10,10 @@
     "require": {
         "php": "^8.0",
         "fruitcake/laravel-cors": "^2.0",
+        "google/apiclient": "^2.9",
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
-        "google/apiclient": "^2.9",
         "revolution/laravel-line-sdk": "^2.0",
         "revolution/self-ordering": "^2.0"
     },
@@ -69,6 +69,9 @@
         "vercel": [
             "npm ci",
             "npm run prod",
+            "@php artisan config:cache",
+            "@php artisan route:cache",
+            "@php artisan view:cache",
             "Google\\Task\\Composer::cleanup"
         ],
         "sail:up": "vendor/bin/sail up -d",
