@@ -14,6 +14,7 @@
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
+        "psr/container": "^2.0.1",
         "revolution/laravel-line-sdk": "^2.0",
         "revolution/self-ordering": "^2.0"
     },
