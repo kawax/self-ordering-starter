@@ -3304,16 +3304,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "e1508153d98beed9828288573f815d2949cb17ce"
+                "reference": "76f73d457d84baee04a317ad3061cd5546607697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/e1508153d98beed9828288573f815d2949cb17ce",
-                "reference": "e1508153d98beed9828288573f815d2949cb17ce",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/76f73d457d84baee04a317ad3061cd5546607697",
+                "reference": "76f73d457d84baee04a317ad3061cd5546607697",
                 "shasum": ""
             },
             "require": {
@@ -3359,9 +3359,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/2.0.0"
+                "source": "https://github.com/kawax/self-ordering/tree/2.0.1"
             },
-            "time": "2022-02-09T09:51:52+00:00"
+            "time": "2022-04-10T01:41:15+00:00"
         },
         {
             "name": "symfony/console",
@@ -8381,5 +8381,5 @@
     "platform-overrides": {
         "ext-sockets": "1.0.0"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
