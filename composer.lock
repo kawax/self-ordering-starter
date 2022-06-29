@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ee5ff5845e7bb9903db5c40e9c0462d",
+    "content-hash": "281f69865d476173261b1e286a3fcbba",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1621,16 +1621,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.0.21",
+            "version": "3.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8f1fcf9d2304ff77a006aa36dd2cb5f236999b12"
+                "reference": "5b461a96d01144744077343908a2c196682c71e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f1fcf9d2304ff77a006aa36dd2cb5f236999b12",
-                "reference": "8f1fcf9d2304ff77a006aa36dd2cb5f236999b12",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5b461a96d01144744077343908a2c196682c71e6",
+                "reference": "5b461a96d01144744077343908a2c196682c71e6",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1691,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.0.21"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.0.23"
             },
             "funding": [
                 {
@@ -1707,7 +1707,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-12T17:54:28+00:00"
+            "time": "2022-06-29T08:19:13+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -3313,21 +3313,21 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "76f73d457d84baee04a317ad3061cd5546607697"
+                "reference": "f9b4937834cb159eda63a2f5b019663b08c1c880"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/76f73d457d84baee04a317ad3061cd5546607697",
-                "reference": "76f73d457d84baee04a317ad3061cd5546607697",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/f9b4937834cb159eda63a2f5b019663b08c1c880",
+                "reference": "f9b4937834cb159eda63a2f5b019663b08c1c880",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.19",
                 "livewire/livewire": "^v2.10",
                 "php": "^8.0",
                 "revolution/laravel-paypay": "^2.0"
@@ -3368,9 +3368,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/2.0.1"
+                "source": "https://github.com/kawax/self-ordering/tree/2.1.0"
             },
-            "time": "2022-04-10T01:41:15+00:00"
+            "time": "2022-06-29T08:16:28+00:00"
         },
         {
             "name": "symfony/console",

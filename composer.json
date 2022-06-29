@@ -10,10 +10,10 @@
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.4",
-        "laravel/framework": "^9.2",
+        "laravel/framework": "^9.19",
         "laravel/tinker": "^2.7",
         "revolution/laravel-line-sdk": "^2.0",
-        "revolution/self-ordering": "^2.0"
+        "revolution/self-ordering": "^2.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

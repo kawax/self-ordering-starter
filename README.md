@@ -33,7 +33,7 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
-npm i && npm run prod
+npm i && npm run build
 
 php artisan serve
 ```
@@ -54,7 +54,7 @@ cp .env.example .env
 
 ./vendor/bin/sail npm i
 
-./vendor/bin/sail npm run prod
+./vendor/bin/sail npm run build
 
 ./vendor/bin/sail up -d
 ```
