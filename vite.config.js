@@ -8,4 +8,12 @@ export default defineConfig({
             'resources/js/app.js',
         ]),
     ],
+    // build: {
+    //     rollupOptions: {
+    //         output: {
+    //             entryFileNames: 'assets/[name].js',
+    //             assetFileNames: 'assets/[name][extname]',
+    //         },
+    //     },
+    // },
 });
