@@ -1633,16 +1633,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.6.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8eded334b9894dc90ebdcb7be81e3a1c9413f709"
+                "reference": "0deb0ff21094cbd37b13cbda085c076312708e6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8eded334b9894dc90ebdcb7be81e3a1c9413f709",
-                "reference": "8eded334b9894dc90ebdcb7be81e3a1c9413f709",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0deb0ff21094cbd37b13cbda085c076312708e6c",
+                "reference": "0deb0ff21094cbd37b13cbda085c076312708e6c",
                 "shasum": ""
             },
             "require": {
@@ -1704,7 +1704,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.6.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.7.0"
             },
             "funding": [
                 {
@@ -1720,7 +1720,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-13T20:05:14+00:00"
+            "time": "2022-10-17T07:23:36+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -1856,16 +1856,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "7.6.0",
+            "version": "7.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "6508bca23cb9b65180d1a310edb75b8216f882f6"
+                "reference": "e141f29cd7b9f27615d11f69e329f2b83ed70654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/6508bca23cb9b65180d1a310edb75b8216f882f6",
-                "reference": "6508bca23cb9b65180d1a310edb75b8216f882f6",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/e141f29cd7b9f27615d11f69e329f2b83ed70654",
+                "reference": "e141f29cd7b9f27615d11f69e329f2b83ed70654",
                 "shasum": ""
             },
             "require": {
@@ -1876,10 +1876,10 @@
             },
             "require-dev": {
                 "orchestra/testbench": "*",
-                "phpmd/phpmd": "~2.10",
-                "phpstan/phpstan": "^1.8",
+                "phpmd/phpmd": "2.13.0",
+                "phpstan/phpstan": "1.8.9",
                 "phpunit/phpunit": "^7||^8||^9",
-                "squizlabs/php_codesniffer": "~3.6"
+                "squizlabs/php_codesniffer": "3.7.1"
             },
             "type": "library",
             "extra": {
@@ -1932,9 +1932,9 @@
             ],
             "support": {
                 "issues": "https://github.com/line/line-bot-sdk-php/issues",
-                "source": "https://github.com/line/line-bot-sdk-php/tree/7.6.0"
+                "source": "https://github.com/line/line-bot-sdk-php/tree/7.6.1"
             },
-            "time": "2022-08-19T06:13:01+00:00"
+            "time": "2022-10-17T08:29:38+00:00"
         },
         {
             "name": "livewire/livewire",
@@ -2418,16 +2418,16 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v1.14.0",
+            "version": "v1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "10065367baccf13b6e30f5e9246fa4f63a79eb1d"
+                "reference": "86fc30eace93b9b6d4c844ba6de76db84184e01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/10065367baccf13b6e30f5e9246fa4f63a79eb1d",
-                "reference": "10065367baccf13b6e30f5e9246fa4f63a79eb1d",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/86fc30eace93b9b6d4c844ba6de76db84184e01b",
+                "reference": "86fc30eace93b9b6d4c844ba6de76db84184e01b",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.14.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.14.1"
             },
             "funding": [
                 {
@@ -2500,7 +2500,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-01T11:03:24+00:00"
+            "time": "2022-10-17T15:20:29+00:00"
         },
         {
             "name": "paypayopa/php-sdk",
