@@ -1941,16 +1941,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.11.0",
+            "version": "v2.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "8667099d5889cab760d1d0083cdcebaa3d595733"
+                "reference": "3ecbb4885d61427e538fcfb9bb9598b513a2176f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/8667099d5889cab760d1d0083cdcebaa3d595733",
-                "reference": "8667099d5889cab760d1d0083cdcebaa3d595733",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/3ecbb4885d61427e538fcfb9bb9598b513a2176f",
+                "reference": "3ecbb4885d61427e538fcfb9bb9598b513a2176f",
                 "shasum": ""
             },
             "require": {
@@ -2002,7 +2002,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.11.0"
+                "source": "https://github.com/livewire/livewire/tree/v2.11.1"
             },
             "funding": [
                 {
@@ -2010,7 +2010,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-15T23:43:31+00:00"
+            "time": "2023-01-28T00:15:41+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3312,27 +3312,27 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "13b85b259b45743df7c24875278839af391d756d"
+                "reference": "205b836fd73b8938c464e7caaa234674b7611847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/13b85b259b45743df7c24875278839af391d756d",
-                "reference": "13b85b259b45743df7c24875278839af391d756d",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/205b836fd73b8938c464e7caaa234674b7611847",
+                "reference": "205b836fd73b8938c464e7caaa234674b7611847",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.0||^10.0",
                 "laravel/socialite": "^5.0",
                 "linecorp/line-bot-sdk": "^7.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^7.0",
+                "orchestra/testbench": "^7.0||^8.0",
                 "phpunit/phpunit": "^9.5"
             },
             "type": "library",
@@ -3370,31 +3370,31 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.0.2"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.1.0"
             },
-            "time": "2022-11-25T00:24:59+00:00"
+            "time": "2023-01-28T02:28:51+00:00"
         },
         {
             "name": "revolution/laravel-paypay",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-paypay.git",
-                "reference": "e37c8ba6582bc00ff2d0103f903711b07ed2d818"
+                "reference": "c7b563fac9e32ca16d72e5304ae33bd81818d8fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/e37c8ba6582bc00ff2d0103f903711b07ed2d818",
-                "reference": "e37c8ba6582bc00ff2d0103f903711b07ed2d818",
+                "url": "https://api.github.com/repos/kawax/laravel-paypay/zipball/c7b563fac9e32ca16d72e5304ae33bd81818d8fb",
+                "reference": "c7b563fac9e32ca16d72e5304ae33bd81818d8fb",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.0||^10.0",
                 "paypayopa/php-sdk": "^2.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^7.0"
+                "orchestra/testbench": "^7.0||^8.0"
             },
             "type": "library",
             "extra": {
@@ -3426,27 +3426,27 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-paypay/issues",
-                "source": "https://github.com/kawax/laravel-paypay/tree/2.0.0"
+                "source": "https://github.com/kawax/laravel-paypay/tree/2.1.0"
             },
-            "time": "2022-01-14T06:21:41+00:00"
+            "time": "2023-01-28T02:13:41+00:00"
         },
         {
             "name": "revolution/self-ordering",
-            "version": "2.1.4",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "3930392c2e741d18c6a265026cf6b4de78131f51"
+                "reference": "ed7e98494d4f1533e73c13aae9c6dce7e6a8b9b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/3930392c2e741d18c6a265026cf6b4de78131f51",
-                "reference": "3930392c2e741d18c6a265026cf6b4de78131f51",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/ed7e98494d4f1533e73c13aae9c6dce7e6a8b9b7",
+                "reference": "ed7e98494d4f1533e73c13aae9c6dce7e6a8b9b7",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
-                "illuminate/support": "^9.19",
+                "illuminate/support": "^9.19||^10.0",
                 "livewire/livewire": "^v2.10",
                 "php": "^8.0",
                 "revolution/laravel-paypay": "^2.0"
@@ -3454,7 +3454,7 @@
             "require-dev": {
                 "google/apiclient": "^2.12",
                 "guzzlehttp/guzzle": "^7.4",
-                "orchestra/testbench": "^7.0"
+                "orchestra/testbench": "^7.0||^8.0"
             },
             "type": "library",
             "extra": {
@@ -3487,9 +3487,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/2.1.4"
+                "source": "https://github.com/kawax/self-ordering/tree/2.2.0"
             },
-            "time": "2022-12-20T03:05:12+00:00"
+            "time": "2023-01-28T02:20:01+00:00"
         },
         {
             "name": "symfony/console",
@@ -6609,16 +6609,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.23",
+            "version": "9.2.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c"
+                "reference": "2cf940ebc6355a9d430462811b5aaa308b174bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c",
-                "reference": "9f1f0f9a2fbb680b26d1cf9b61b6eac43a6e4e9c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2cf940ebc6355a9d430462811b5aaa308b174bed",
+                "reference": "2cf940ebc6355a9d430462811b5aaa308b174bed",
                 "shasum": ""
             },
             "require": {
@@ -6674,7 +6674,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.23"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.24"
             },
             "funding": [
                 {
@@ -6682,7 +6682,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-28T12:41:10+00:00"
+            "time": "2023-01-26T08:26:55+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
