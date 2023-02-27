@@ -2,16 +2,12 @@
 
 namespace App\Listeners;
 
-use App\Notifications\OrderEntryNotification;
-use Illuminate\Support\Facades\Notification;
 use Revolution\Ordering\Events\OrderEntry;
 
 class OrderEntryListener
 {
     /**
      * Create the event listener.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -22,9 +18,10 @@ class OrderEntryListener
      * Handle the event.
      *
      * @param  OrderEntry  $event
+     *
      * @return void
      */
-    public function handle(OrderEntry $event)
+    public function handle(OrderEntry $event): void
     {
         info('Order ID : '.$event->order_id);
 

@@ -1,5 +1,4 @@
 {
-    "version": 2,
     "regions": [
         "hnd1"
     ],
@@ -37,6 +36,7 @@
     ],
     "env": {
         "APP_NAME": "セルフオーダーシステム",
+        "APP_DEBUG": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
