@@ -1150,16 +1150,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.6.1",
+            "version": "v10.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1282e96202085f798528ee43371b2ffbb8dcfbd8"
+                "reference": "13dc93889617427352f72b6aa8b195b252af1197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1282e96202085f798528ee43371b2ffbb8dcfbd8",
-                "reference": "1282e96202085f798528ee43371b2ffbb8dcfbd8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/13dc93889617427352f72b6aa8b195b252af1197",
+                "reference": "13dc93889617427352f72b6aa8b195b252af1197",
                 "shasum": ""
             },
             "require": {
@@ -1258,7 +1258,7 @@
                 "league/flysystem-read-only": "^3.3",
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^8.3",
+                "orchestra/testbench-core": "^8.4",
                 "pda/pheanstalk": "^4.0",
                 "phpstan/phpdoc-parser": "^1.15",
                 "phpstan/phpstan": "^1.4.7",
@@ -1346,7 +1346,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-04-04T20:58:15+00:00"
+            "time": "2023-04-05T15:28:17+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3476,16 +3476,16 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "2.2.2",
+            "version": "2.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "79280d5a5e72c776f71fec857c94b384c55501cf"
+                "reference": "10593a5c29ab6328001d72c111822bc6f0e76e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/79280d5a5e72c776f71fec857c94b384c55501cf",
-                "reference": "79280d5a5e72c776f71fec857c94b384c55501cf",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/10593a5c29ab6328001d72c111822bc6f0e76e18",
+                "reference": "10593a5c29ab6328001d72c111822bc6f0e76e18",
                 "shasum": ""
             },
             "require": {
@@ -3534,9 +3534,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.2.2"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.2.5"
             },
-            "time": "2023-02-27T02:29:29+00:00"
+            "time": "2023-04-06T01:25:59+00:00"
         },
         {
             "name": "revolution/laravel-paypay",
@@ -7201,16 +7201,16 @@
         },
         {
             "name": "revolution/laravel-vercel-installer",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-vercel-installer.git",
-                "reference": "2add878bf5111ff87bcd7e30e3f72d85939aa6f2"
+                "reference": "894b9e5975347929c73a5377097f3a80074cb358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-vercel-installer/zipball/2add878bf5111ff87bcd7e30e3f72d85939aa6f2",
-                "reference": "2add878bf5111ff87bcd7e30e3f72d85939aa6f2",
+                "url": "https://api.github.com/repos/kawax/laravel-vercel-installer/zipball/894b9e5975347929c73a5377097f3a80074cb358",
+                "reference": "894b9e5975347929c73a5377097f3a80074cb358",
                 "shasum": ""
             },
             "require": {
@@ -7250,9 +7250,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-vercel-installer/issues",
-                "source": "https://github.com/kawax/laravel-vercel-installer/tree/1.0.0"
+                "source": "https://github.com/kawax/laravel-vercel-installer/tree/1.1.0"
             },
-            "time": "2022-12-22T04:16:20+00:00"
+            "time": "2023-04-06T03:07:44+00:00"
         },
         {
             "name": "sebastian/cli-parser",
