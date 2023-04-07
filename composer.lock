@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c752da783e28b56415b9930789b243ea",
+    "content-hash": "02bbba8c102c4258776237540c8fbca6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3596,16 +3596,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "c14769be70b65da090317b07060f6b7eb44f7def"
+                "reference": "49e48cb8f88092618033ec93493ca9c57c594e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/c14769be70b65da090317b07060f6b7eb44f7def",
-                "reference": "c14769be70b65da090317b07060f6b7eb44f7def",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/49e48cb8f88092618033ec93493ca9c57c594e6b",
+                "reference": "49e48cb8f88092618033ec93493ca9c57c594e6b",
                 "shasum": ""
             },
             "require": {
@@ -3651,9 +3651,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/2.2.1"
+                "source": "https://github.com/kawax/self-ordering/tree/2.2.2"
             },
-            "time": "2023-02-27T06:55:27+00:00"
+            "time": "2023-04-07T00:58:33+00:00"
         },
         {
             "name": "symfony/console",
@@ -7198,61 +7198,6 @@
                 }
             ],
             "time": "2023-03-27T11:46:33+00:00"
-        },
-        {
-            "name": "revolution/laravel-vercel-installer",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kawax/laravel-vercel-installer.git",
-                "reference": "894b9e5975347929c73a5377097f3a80074cb358"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-vercel-installer/zipball/894b9e5975347929c73a5377097f3a80074cb358",
-                "reference": "894b9e5975347929c73a5377097f3a80074cb358",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^9.0||^10.0",
-                "php": "^8.1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^7.0||^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Revolution\\Vercel\\VercelInstallerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Revolution\\Vercel\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "kawax",
-                    "email": "kawaxbiz@gmail.com"
-                }
-            ],
-            "description": "Vercel Installer",
-            "keywords": [
-                "laravel",
-                "vercel"
-            ],
-            "support": {
-                "issues": "https://github.com/kawax/laravel-vercel-installer/issues",
-                "source": "https://github.com/kawax/laravel-vercel-installer/tree/1.1.0"
-            },
-            "time": "2023-04-06T03:07:44+00:00"
         },
         {
             "name": "sebastian/cli-parser",
