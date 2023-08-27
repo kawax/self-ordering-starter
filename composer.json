@@ -10,7 +10,7 @@
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
-        "revolution/self-ordering": "^2.2"
+        "revolution/self-ordering": "^3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
