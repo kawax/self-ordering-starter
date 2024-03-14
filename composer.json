@@ -8,7 +8,6 @@
         "php": "^8.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
-        "revolution/laravel-line-sdk": "^3.2",
         "revolution/self-ordering": "^4.0"
     },
     "require-dev": {
