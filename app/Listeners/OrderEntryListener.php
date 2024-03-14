@@ -2,6 +2,8 @@
 
 namespace App\Listeners;
 
+use App\Notifications\OrderEntryNotification;
+use Illuminate\Support\Facades\Notification;
 use Revolution\Ordering\Events\OrderEntry;
 
 class OrderEntryListener
@@ -20,9 +22,7 @@ class OrderEntryListener
     public function handle(OrderEntry $event): void
     {
         info('Order ID : '.$event->order_id);
-
         info($event->table.' : '.$event->memo, $event->items);
-
         info('options', $event->options);
 
 //        Notification::route('line-notify', config('line.notify.personal_access_token'))
