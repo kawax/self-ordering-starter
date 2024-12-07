@@ -1998,16 +1998,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.5.16",
+            "version": "v3.5.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "0b842088d716cadaf9d94fc4f096bc688db29d65"
+                "reference": "7bbf80d93db9b866776bf957ca6229364bca8d87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/0b842088d716cadaf9d94fc4f096bc688db29d65",
-                "reference": "0b842088d716cadaf9d94fc4f096bc688db29d65",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/7bbf80d93db9b866776bf957ca6229364bca8d87",
+                "reference": "7bbf80d93db9b866776bf957ca6229364bca8d87",
                 "shasum": ""
             },
             "require": {
@@ -2062,7 +2062,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.5.16"
+                "source": "https://github.com/livewire/livewire/tree/v3.5.17"
             },
             "funding": [
                 {
@@ -2070,7 +2070,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-02T15:57:58+00:00"
+            "time": "2024-12-06T13:41:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3487,16 +3487,16 @@
         },
         {
             "name": "revolution/self-ordering",
-            "version": "4.0.5",
+            "version": "4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/self-ordering.git",
-                "reference": "1b9ccc0c4b59c39d85a1028ad186e1138041b30e"
+                "reference": "8325ed406e6f0102b658dda97358b48c8229afe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/1b9ccc0c4b59c39d85a1028ad186e1138041b30e",
-                "reference": "1b9ccc0c4b59c39d85a1028ad186e1138041b30e",
+                "url": "https://api.github.com/repos/kawax/self-ordering/zipball/8325ed406e6f0102b658dda97358b48c8229afe1",
+                "reference": "8325ed406e6f0102b658dda97358b48c8229afe1",
                 "shasum": ""
             },
             "require": {
@@ -3541,9 +3541,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/self-ordering/issues",
-                "source": "https://github.com/kawax/self-ordering/tree/4.0.5"
+                "source": "https://github.com/kawax/self-ordering/tree/4.0.6"
             },
-            "time": "2024-08-25T02:39:34+00:00"
+            "time": "2024-12-06T11:32:21+00:00"
         },
         {
             "name": "symfony/clock",
