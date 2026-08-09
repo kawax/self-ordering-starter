@@ -17,53 +17,35 @@ class OrderEntryNotification extends Notification
 
     /**
      * 注文ID.
-     *
-     * @var string
      */
     public string $order_id;
 
     /**
      * 詳細を含む商品データ.
-     *
-     * @var array|null
      */
     public ?array $items;
 
     /**
      * テーブル番号.
-     *
-     * @var string|null
      */
     public ?string $table;
 
     /**
      * 追加メモ.
-     *
-     * @var string|null
      */
     public ?string $memo;
 
     /**
      * オプションデータ.
-     *
-     * @var array|null
      */
     public ?array $options;
 
-    /**
-     * @var string|null
-     */
     private ?string $payment;
 
-    /**
-     * @var string|null
-     */
     private ?string $order_items;
 
     /**
      * Create a new notification instance.
-     *
-     * @param  OrderEntry  $event
      */
     public function __construct(OrderEntry $event)
     {
@@ -87,8 +69,8 @@ class OrderEntryNotification extends Notification
     public function via(object $notifiable): array
     {
         return [
-            //'mail',
-            //LineChannel::class,
+            // 'mail',
+            // LineChannel::class,
         ];
     }
 
